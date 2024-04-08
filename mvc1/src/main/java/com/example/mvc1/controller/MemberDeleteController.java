@@ -21,7 +21,7 @@ public class MemberDeleteController extends HttpServlet {
         if (cnt > 0) {
             response.sendRedirect("/memberList.do");
         } else {
-            throw new ServletException("not insert");
+            throw new ServletException("not delete");
         }
 
     }
